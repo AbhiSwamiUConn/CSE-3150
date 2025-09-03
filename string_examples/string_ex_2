@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+//syntax for c++14
+using std::cout;
+using std::cin;
+using std::endl;
+using std::string;
+
+//syntax for c++17: using std::cout, std::cin, std::endl, std::string;
+
+int main () {
+	cout << " Enter score : " ;
+	// Must define int var first
+	int score;
+	// NOTE : input operator is in the other direction , and 
+	goes to the first whitespace ( much like with strings)
+	cin >> score;
+	cout << " Score is " << score << endl ;
+	return 0;
+}
